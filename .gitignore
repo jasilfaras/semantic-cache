@@ -1,0 +1,44 @@
+# Environment
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage/
+coverage.xml
+htmlcov/
+.venv/
+venv/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+.eslintcache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editors and OS files
+.DS_Store
+.idea/
+.vscode/
+.vscode-test/
+*.swp
+*.swo
